@@ -48,3 +48,14 @@ button{
     justify-content: center;
     align-items: center;
 }
+
+input{
+    padding: 20px;
+    font-size: large;
+    font-weight: bold;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: none;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset 5px 5px 12px rgba(6, 94, 79, 0.569);
+}
