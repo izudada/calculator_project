@@ -67,3 +67,11 @@ input{
                 inset 5px 5px 12px rgba(6, 94, 79, 0.569);
     margin: auto;
 }
+
+
+@media screen and (max-width: 500px) {
+    .calculator{
+        height: 80vh;
+        width: 70%;
+    }
+}
