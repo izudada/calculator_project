@@ -72,7 +72,15 @@ input{
 @media screen and (max-width: 345px) {
     .calculator{
         height: 80vh;
-        width: 100%;
+        width: 70%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .calculator{
+        height: 80vh;
+        width: 70%;
         padding: 0;
     }
 }
