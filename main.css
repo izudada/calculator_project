@@ -50,12 +50,16 @@ button{
 }
 
 input{
-    padding: 20px;
-    font-size: large;
+    padding: 0 0px;
+    font-size: 20pt;
+    width: 90%;
+    height: 70px;
+    text-align: end;
     font-weight: bold;
     background-color: #ffffff;
     border-radius: 8px;
     border: none;
     box-shadow: inset -5px -5px 12px #ffffff,
                 inset 5px 5px 12px rgba(6, 94, 79, 0.569);
+    margin: auto;
 }
