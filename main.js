@@ -15,3 +15,8 @@ function calculate() {
         alert("Invalid Operation");
     }
 }
+
+// A function to clear the input box
+function Clear() {
+    outputScreen.value = "";
+}
