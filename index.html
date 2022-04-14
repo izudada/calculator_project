@@ -14,29 +14,48 @@
         <div class="calculator">
             <input type="number" id="box" placeholder="0">
 
-            <button id="clear" onclick="Clear()">
-                <i class="material-icons outlined">
-                    backspace
-                </i>
-            </button>
-            <button onclick="del()">DEL</button>
-            <button onclick="display('%')">%</button>
-            <button onclick="display('/')">/</button>
-            <button onclick="display('7')">7</button>
-            <button onclick="display('8')">8</button>
-            <button onclick="display('9')">9</button>
-            <button onclick="display('*')">*</button>
-            <button onclick="display('4')">4</button>
-            <button onclick="display('5')">5</button>
-            <button onclick="display('6')">6</button>
-            <button onclick="display('-')">-</button>
-            <button onclick="display('1')">1</button>
-            <button onclick="display('2')">2</button>
-            <button onclick="display('3')">3</button>
-            <button onclick="display('+')">+</button>
-            <button onclick="display('.')">.</button>
-            <button onclick="display('0')">0</button>
-            <button onclick="calculate()">=</button>
+            <div class="row first">
+                <button onclick="del()">DEL</button>
+                <button onclick="display('%')">%</button>
+                <button onclick="display('/')">/</button>
+            </div>
+
+
+            <div class="row second">
+                <button onclick="display('7')">7</button>
+                <button onclick="display('8')">8</button>
+                <button onclick="display('9')">9</button>
+                <button onclick="display('*')">x</button>
+            </div>
+
+
+            <div class="row third">
+                <button onclick="display('4')">4</button>
+                <button onclick="display('5')">5</button>
+                <button onclick="display('6')">6</button>
+                <button onclick="display('-')">-</button>
+            </div>
+ 
+
+            <div class="row fourth">
+                <button onclick="display('1')">1</button>
+                <button onclick="display('2')">2</button>
+                <button onclick="display('3')">3</button>
+                <button onclick="display('+')">+</button>
+            </div>
+
+
+            <div class="row fift">
+                <button onclick="display('0')">0</button>
+                <button onclick="display('.')">.</button>
+                <button id="clear" onclick="Clear()">
+                    <i class="material-icons outlined">
+                        backspace
+                    </i>
+                </button>
+                <button onclick="calculate()">=</button>
+            </div>
+            
 
         </div>
     </main>
