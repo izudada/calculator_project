@@ -13,3 +13,14 @@
     justify-content: center;
     align-items: center;
 }
+
+.calculator{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 30px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
