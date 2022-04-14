@@ -69,7 +69,7 @@ input{
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 345px) {
     .calculator{
         height: 80vh;
         width: 70%;
