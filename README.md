@@ -21,5 +21,4 @@ Note: If your text editor is VsCode, you can install liverserver extension and e
 ## Author
 
 - Website - [Anthony Udeagbala](https://izudada.herokuapp.com/)
-- Frontend Mentor - [@izudada](https://www.frontendmentor.io/profile/izudada)
 - Twitter - [@_izudada](https://twitter.com/_izudada)
