@@ -20,3 +20,8 @@ function calculate() {
 function Clear() {
     outputScreen.value = "";
 }
+
+// A function to del the input box items one after another
+function del() {
+    outputScreen.value = outputScreen.value.slice(0, -1);
+}
